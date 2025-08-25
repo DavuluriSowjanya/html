@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="submit.html" method="get">
+<center>
+    <img src="./img/logo.jpg" width="50%" type="logo">
+</center>
+        <fieldset stywidth:"60%">
+    <legend>Application Deatails</legend>
+    
+    <table  border="0" cellspacing="15" cellpadding="1" >
+        <td><label for="Student Name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" name="name" id="Sname">
+</td>
+<td>
+   <label for="Name">Father Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" name="fname" id="fname">     
+
+</td>
+</tr>
+<tr>
+    <td>
+<label for="date">Date of Birth:&nbsp;</label>
+<input type="date" name="date" id="date">
+</td>
+<td>
+<label for=""> Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="radio" id="male" name="gender" value="male">
+<lable for="male">male</lable>
+<input type="radio" id="female" name="gender" value="female">
+<lable for="male">female</lable>
+</tr>
+<tr>
+ <td>
+  <lable for="adhar">Adhar No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+<input type="text" id="adhar" name="adhar" maxlength="12">
+ </td>
+ <td>
+<lable for="whatsapp">What'sApp No:&nbsp;&nbsp;</lable>
+<input type="tell" id="whatsapp" name="whatsapp" maxlength="10">
+    </td>
+</tr>
+<tr>
+    <td>
+<label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="Email" id="email" name="email">
+</td>
+ <td>
+<label for="photo">Photo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+ <input type="file" name="photo" id="photo">
+</td>
+</tr>
+</table>
+</fieldset>
+     <fieldset width="50%">
+        <legend>Residensical  Adress Details </legend>
+<table  border="0" cellpacing="0" cellpadding="10">
+    <tr>
+        <td>
+            <label for="applicant ad">Applicant's Adress:</label>
+            <textarea name="Adress" id="Adress"></textarea>
+        </td>
+        <td> 
+            <label for="dist">Distrist:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="Dist" id="Dist">
+                <option value="">Hyderabad</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <label for="man">Mandal:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+            <select name="" id="">
+                <option value="">Hyderabad</option>
+            </select>
+        </td>
+        <td>
+            <label for="vill">Village:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="" id="">
+                <option value="">Hyderabad</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          
+            <label for="pin">Pincode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="pin" id="pin" maxlength="6">
+        </td>
+    </tr>
+</table>
+</fieldset>
+       <fieldset width="50%">
+            <legend>Pass Type Details</legend>
+        
+<table  border="0" cellpacing="0" cellpadding="10" >
+      <td> <label for="vill">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="vill" id="vill">
+                <option value="">Hyderabad</option>
+            </select>  
+    </td></tr>
+    <tr>
+         <td><label for="pt">Pass Type:</label>
+            <select name="" id="">
+                <option value="">----Select----</option>
+                <option value="">Student</option>
+                <option value="">Employee</option>
+            </select>
+   </td> 
+</tr>
+</table>
+</fieldset>
+<fieldset width="50%">
+    <legend>Mode of Payment&Pass Collection</legend>
+    <table  border="0" cellpacing="0" cellpadding="10" >
+    <tr>
+       <td><label for="pt">Payment Mode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="pt" id="pt" Required>
+                <option value="">----Select----</option>
+                <option value="">Debit Mode</option>
+                <option value="">Credit Mode</option>
+            </select>
+    </td></tr>
+    <tr>
+       <td><label for="pt">Pass Delivery Mode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="pd" id="pd" Required>
+                <option value="">----Select----</option>
+                <option value="">Delivery mode</option>
+                <option value="">Offline mode</option>
+                <option value="">Online mode</option>
+            </select>
+    </td></tr>
+    <tr>
+        <td><label for="Pass Type">Center at which you want to Collect Pass:</label>
+            <select name="Pass Type" id="Pass Type" Required>
+                <option value="">----Select----</option>
+                <option value="">Delivery mode</option>
+                <option value="">Offline mode</option>
+                <option value="">Online Mode</option>
+            </select>
+   </td> </tr>
+</table>
+</form>
+</fieldset>
+<center>
+<img src="./img/cap.jpg" alt="Captcha" width="150"><br>&nbsp;&nbsp;
+<input type="text" name="captcha" id="captcha"><br><br>&nbsp;&nbsp;
+<input type="submit" value="Submit"><br><br>&nbsp;&nbsp;
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;
+</center>
+</body>
+</html>
